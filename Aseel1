@@ -1,0 +1,21 @@
+
+
+q = ['a','b','c','d','e','f']
+
+def addq(q):
+    q.append("d")
+
+print(addq(q))
+print(q)
+
+def removeq(q):
+    q.pop(len(q)-1)
+
+print(removeq(q))
+print(q)
+
+def proccess(q):
+    q.pop(0)
+
+print(proccess(q))
+print(q)
